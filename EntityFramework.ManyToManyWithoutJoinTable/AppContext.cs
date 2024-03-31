@@ -5,9 +5,9 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
-using static EntityFramework.ManyToManyWithJoinTable.Models;
+using static EntityFramework.ManyToManyWithoutJoinTable.Models;
 
-namespace EntityFramework.ManyToManyWithJoinTable
+namespace EntityFramework.ManyToManyWithoutJoinTable
 {
     public class AppContext : DbContext
     {
