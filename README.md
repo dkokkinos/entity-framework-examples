@@ -6,6 +6,8 @@
   <br>
 </h1>
 
+<p>Checkout the related article to learn more -> https://softwareparticles.com/many-to-many-relationship-with-net5-and-entityframework/</p>
+
 <h3>EntityFramework.ManyToManyWithJoinTable</h3>
 <p>Model the join table as a separate entity in the code. Both ends of the relationship have a reference to the join table.</p>
 
