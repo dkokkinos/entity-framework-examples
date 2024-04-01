@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework.ManyToManyWithoutJoinTable", "EntityFramework.ManyToManyWithoutJoinTable\EntityFramework.ManyToManyWithoutJoinTable.csproj", "{9E2B2613-4CB1-40BD-8C40-000ADC203468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.ManyToManyWithJoinTable", "EntityFramework.ManyToManyWithJoinTable\EntityFramework.ManyToManyWithJoinTable.csproj", "{49E68142-D80A-49C1-BEA6-0CDFD9EE67D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework.ManyToManyWithJoinTable", "EntityFramework.ManyToManyWithJoinTable\EntityFramework.ManyToManyWithJoinTable.csproj", "{49E68142-D80A-49C1-BEA6-0CDFD9EE67D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.ManyToManyWithConfigurableJoinTable", "EntityFramework.ManyToManyWithConfigurableJoinTable\EntityFramework.ManyToManyWithConfigurableJoinTable.csproj", "{91959DEF-DCEF-4381-AC36-4DA0CC2F7D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{49E68142-D80A-49C1-BEA6-0CDFD9EE67D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49E68142-D80A-49C1-BEA6-0CDFD9EE67D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49E68142-D80A-49C1-BEA6-0CDFD9EE67D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91959DEF-DCEF-4381-AC36-4DA0CC2F7D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91959DEF-DCEF-4381-AC36-4DA0CC2F7D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91959DEF-DCEF-4381-AC36-4DA0CC2F7D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91959DEF-DCEF-4381-AC36-4DA0CC2F7D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
